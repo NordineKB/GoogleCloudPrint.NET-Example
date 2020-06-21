@@ -1,5 +1,5 @@
 # GoogleCloudPrint.NET-Example
-Send a PDF to a cloud printer (Console Example)
+Send a PDF to a cloud printer (Console Example). This sample is used in the ebay order printer project.
 
 
 # How to set up the auth 
