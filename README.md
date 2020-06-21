@@ -2,13 +2,13 @@
 Send a PDF to a cloud printer (Console Example). This sample is used in the ebay order printer project.
 
 
-# How to set up the auth 
+## How to set up the auth 
 
 Register an app with Google and Get an App Id and Client Secret
 https://developers.google.com/cloud-print
 
 
-# Setup auth
+## Setup auth
 
 Step 1:
 ```csharp
@@ -32,7 +32,7 @@ System.IO.File.WriteAllText(@"cerd.json", json);
 ```
 
 
-# Get Printer Info
+## Get Printer Info
 Printer -> Details -> Advanced Details
 Get Printer Id and Proxy
 
