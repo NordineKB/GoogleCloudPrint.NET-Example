@@ -36,5 +36,5 @@ System.IO.File.WriteAllText(@"cerd.json", json);
 Printer -> Details -> Advanced Details
 Get Printer Id and Proxy
 
-![Printer Details][https://i.imgur.com/AZAOm3a.png]
+![Printer Details](https://i.imgur.com/AZAOm3a.png)
 
