@@ -6,4 +6,8 @@
     <RootNamespace>GoogleCloudPrint.NET_Example</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="GoogleCloudPrintApi" Version="1.6.0" />
+  </ItemGroup>
+
 </Project>
