@@ -10,7 +10,7 @@ https://developers.google.com/cloud-print
 
 # Setup auth
 
-#Step 1:
+Step 1:
 ```csharp
 var clientId = "#client-id#";
 var clientSecret = "#client-secret#";
@@ -20,7 +20,7 @@ var redirectUri = "http://localhost";
 var url = provider.BuildAuthorizationUrl(redirectUri);
 Console.WriteLine(url);
 ```
-#Step 2:
+Step 2:
 ```csharp
 var authorizationCode = "#auth-code-here#";
 var token = await provider.GenerateRefreshTokenAsync(authorizationCode, redirectUri);
@@ -33,5 +33,8 @@ System.IO.File.WriteAllText(@"cerd.json", json);
 
 
 # Get Printer Info
+Printer -> Details -> Advanced Details
+Get Printer Id and Proxy
 
+[https://i.imgur.com/AZAOm3a.png]
 
